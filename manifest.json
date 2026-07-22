@@ -4,8 +4,8 @@
   "description": "Official Web App for the Twinimon Rolls Community Discord Server. Stay updated, join events, connect with members, and more.",
   "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#23272a",
-  "theme_color": "#7289da",
+  "background_color": "#080b11",
+  "theme_color": "#080b11",
   "orientation": "portrait",
   "lang": "en-US",
   "icons": [
