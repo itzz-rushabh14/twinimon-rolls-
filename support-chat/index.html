@@ -57,6 +57,32 @@
       box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.10);
     }
 
+    /* Back to Home Button Styles */
+    .back-home-btn {
+      position: absolute;
+      right: 24px;
+      top: 20px;
+      background: #000000;
+      color: #7ae1fa;
+      border: 1px solid transparent;
+      outline: none;
+      border-radius: 5px;
+      padding: 8px 16px;
+      font-size: 0.98rem;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.18s, color 0.18s;
+      z-index: 10;
+    }
+    .back-home-btn:hover,
+    .back-home-btn:focus {
+      background: #353535;
+      color: #fff;
+      border: 1px solid rgb(172, 172, 172);
+      text-decoration: none;
+    }
+
     .ai-icon {
       width: 42px;
       height: 42px;
@@ -319,6 +345,8 @@
     <div class="chat-header">
       <img class="ai-icon" src="assets/favicon.png" alt="">
       <span class="ai-name">Twinimon Support</span>
+      <!-- Back to Home Button -->
+      <a href="../index.html" class="back-home-btn" title="Back to Home">&#8592; Back to Home</a>
     </div>
     <div class="chat-body" id="chat-body">
       <div class="message-wrapper bot">
